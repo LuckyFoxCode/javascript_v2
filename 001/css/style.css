@@ -1,0 +1,14 @@
+body {
+  background-color: grey;
+}
+
+.modal {
+  width: 200px;
+  height: 350px;
+  border: 1px solid chocolate;
+  border-radius: 10px;
+  background-color: rgb(79, 193, 228);
+  box-shadow: 0 0 10px #000;
+  margin: 0 auto;
+  display: none;
+}
