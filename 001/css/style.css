@@ -12,3 +12,21 @@ body {
   margin: 0 auto;
   display: none;
 }
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(127, 255, 0);
+  color: forestgreen;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(127, 255, 0, 0.8);
+  color: #000;
+}
