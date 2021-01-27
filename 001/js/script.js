@@ -1,26 +1,20 @@
 'use strict';
 
-const btn = document.querySelector('.btn_one'),
-  inputCheck = document.querySelector('#check'),
-  inputPass = document.querySelector('#pass'),
-  inputOne = document.querySelector('#text-one'),
-  inputText = document.querySelector('#text'),
-  select = document.querySelector('#select'),
-  out = document.querySelector('.out'),
-  outSecond = document.querySelector('.out-second'),
-  form = document.querySelector('.form');
+const out = document.querySelector('.out'),
+  btn = document.querySelector('button'),
+  numOne = document.querySelector('.num-one'),
+  numTwo = document.querySelector('.num-two');
 
 btn.addEventListener('click', () => {
-  inputText.innerHTML = inputOne.value;
-  out.innerHTML = inputText.value;
-  console.log(inputOne.value);
-});
 
-select.addEventListener('change', () => {
-  inputOne.value = select.value;
-});
+  let a = '';
+  for (let i = 10; i >= 0; i--) {
+    a += i + ' ';
+    console.log(a);
+    for (let z = 0; z <= 10; z++) {
+      a += z + ' ';
+    }
+  }
 
-btn.addEventListener('click', (event) => {
-  event.preventDefault();
-  outSecond.innerHTML = `${inputOne.value} ${inputPass.value}`;
+  out.innerHTML = a;
 });
