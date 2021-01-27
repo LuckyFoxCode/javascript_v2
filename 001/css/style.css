@@ -30,3 +30,7 @@ button:hover {
   background-color: rgba(127, 255, 0, 0.8);
   color: #000;
 }
+
+.orange {
+  color: orange;
+}

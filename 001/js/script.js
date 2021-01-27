@@ -1,20 +1,18 @@
 'use strict';
 
 const out = document.querySelector('.out'),
-  btn = document.querySelector('button'),
-  numOne = document.querySelector('.num-one'),
-  numTwo = document.querySelector('.num-two');
+      btn = document.querySelector('.btn');
+
+function f1() {
+  out.style.width = '200px';
+  out.style.height = '40px';
+}
 
 btn.addEventListener('click', () => {
-
-  let a = '';
-  for (let i = 10; i >= 0; i--) {
-    a += i + ' ';
-    console.log(a);
-    for (let z = 0; z <= 10; z++) {
-      a += z + ' ';
-    }
+  out.classList.toggle('bg');
+  if (out.classList === 'bg') {
+    console.log('true');
+  } else {
+    console.log('false');
   }
-
-  out.innerHTML = a;
 });
