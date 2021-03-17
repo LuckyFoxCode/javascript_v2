@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.modal {
+  width: 200px;
+  height: 350px;
+  border: 1px solid chocolate;
+  border-radius: 10px;
+  background-color: rgb(79, 193, 228);
+  box-shadow: 0 0 10px #000;
+  margin: 0 auto;
+  display: none;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(127, 255, 0);
+  color: crimson;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: crimson;
+  color: #000;
+}
+
+.orange {
+  color: orange;
+}
