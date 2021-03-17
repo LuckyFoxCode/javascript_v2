@@ -1,5 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
 }
 
 .modal {
@@ -19,7 +34,7 @@ button {
   border-radius: 5px;
   border: none;
   background-color: rgb(127, 255, 0);
-  color: forestgreen;
+  color: crimson;
   font-weight: 600;
   font-size: 16px;
   transition: all 0.3s linear;
@@ -27,7 +42,7 @@ button {
 }
 
 button:hover {
-  background-color: rgba(127, 255, 0, 0.8);
+  background-color: crimson;
   color: #000;
 }
 
