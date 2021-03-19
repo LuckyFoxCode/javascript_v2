@@ -5,3 +5,6 @@
 * **unit-5:** Циклы в JavaScript (часть 1) **DONE!** `15/15`
 * **unit-6:** Вложенные циклы в JavaScript (часть 2) **DONE!** `10/10`
 * **unit-7:** Функции и все о них **DONE!** `10/10`
+* **unit-8:** Цикл While, Do While **DONE!** `15/15`
+* **unit-9:** Работа с DOM **DONE!** `20/20`
+* **unit-10:** Массивы в JavaScript **DONE!** `20/20`
