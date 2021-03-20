@@ -150,48 +150,111 @@ function showArr(domElem, arr) {
 
 // *	Task 12
 
-const d12 = [6, 62, 60, 70, 1, 5];
-
-btn.onclick = () => {
-	let str = '';
-	let num = +inputText.value;
-
-	for (let i = 0; i < d12.length; i++) {
-		if (d12[i] === num) {
-			 str = i;
-		}
-	}
-	out.innerHTML = str;
-};
+// const d12 = [6, 62, 60, 70, 1, 5];
+//
+// btn.onclick = () => {
+// 	let str = '-1';
+// 	let num = +inputText.value;
+//
+// 	for (let i = 0; i < d12.length; i++) {
+// 		if(num === d12[i]) {
+// 			str = i;
+// 		}
+// 	}
+//
+// 	out.innerHTML = str;
+// };
 
 
 // *	Task 13
 
-const d13 = [6, 0, 22, 1, 4, 76];
+// const d13 = [6, 0, 22, 1, 4, 76];
+// const arr = [];
+//
+// btn.onclick = () => {
+// 	for (let i = d13.length - 1; i > -1; i--) {
+// 		arr.push(d13[i]);
+// 	}
+//
+// 	out.innerHTML = arr;
+// };
 
-btn.onclick = () => {
-	const arr = [];
-	let count = d13.length - 1;
-	console.log(count);
+// *	Task 14
 
+// const d14 = [];
+//
+// btn.onclick = () => {
+// 	let val = +inputText.value;
+//
+// 	for (let i = 1; i <= val; i++) {
+// 		d14.push(1);
+// 	}
+// 	out.innerHTML = d14;
+// 	console.log(d14);
+// };
 
-	for (let i = 0; i <= d13.length; i++) {
+// *	Task 15
 
-		arr[count] += arr.push(d13[i]);
-		count--;
-	}
-	out.innerHTML = arr;
-};
+// const d15 = [0, 2, 5, -4, 6, 22, -9, -12, 8, 12, 13, 78];
+//
+// btn.onclick = () => {
+// 	let val = +inputText.value;
+// 	if (d15.indexOf(val) === -1) {
+// 		d15.push(val);
+// 	}
+//
+// 	out.innerHTML = d15;
+// };
 
+// *	Task 16
 
+// let d16 = [];
+// let d161 = [5, 6, 7, 8, 9];
+// let d162 = [23, 24, 56, 87];
+//
+// d16 = d161.concat(d162);
+// out.innerHTML = d16;
 
+// *	Task 17
 
+// let d17 = [];
+// const d171 = ['a', 'b', 'c', 'd'];
+// const d172 = [1, 2, 3, 4, 5];
+//
+// btn.onclick = () => {
+// 	d17 = d171;
+// 	for (let i = 0; i < d172.length; i++) {
+// 		d17.push(d172[i]);
+// 	}
+// 	out.innerHTML = d17;
+// };
 
+// *	Task 18
 
+// const d18 = ['b', 'c', '45', 'e', 'z', 'y'];
+//
+// btn.onclick = () => {
+// 	let val = inputText.value;
+//
+// 	out.innerHTML = d18.includes(val);
+// };
 
+// *	Task 19
 
+// const d19 = ['Your', 'payment', 'method', 'will', 'automatically', 'be', 'charged', 'in', 'advance', 'every'];
+//
+// btn.onclick = () => {
+// 	let max = 0;
+// 	for (let i = 0; i < d19.length; i++) {
+// 		if (max < d19[i].length) {
+// 			max = d19[i].length;
+// 		}
+// 	}
+// 	out.innerHTML = max;
+// };
 
+// *	Task 20
 
-
-
-
+// const  d20 = [4,5,6,7,8,9,10]
+//
+// out.innerHTML = d20.join('');
