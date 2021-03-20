@@ -8,3 +8,4 @@
 * **unit-8:** Цикл While, Do While **DONE!** `15/15`
 * **unit-9:** Работа с DOM **DONE!** `20/20`
 * **unit-10:** Массивы в JavaScript **DONE!** `20/20`
+* **unit-11:** Добавление и удаление элементов массива: -pop(), push(), splice() **DONE!** `20/20`
