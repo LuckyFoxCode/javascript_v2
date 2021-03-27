@@ -15,3 +15,4 @@
 * **unit-15:** Set в JavaScript **DONE!** `13/13`
 * **unit-16:** Перебор массивов: for, for in, for of **DONE!** `15/15`
 * **unit-17:** Методы массивов: map, filter ( часть 1) **DONE!** `10/10`
+* **unit-18:** Методы массивов: join, split, forEach ( часть 2) **DONE!** `09/10`
