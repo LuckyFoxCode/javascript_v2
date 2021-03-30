@@ -16,3 +16,5 @@
 * **unit-16:** Перебор массивов: for, for in, for of **DONE!** `15/15`
 * **unit-17:** Методы массивов: map, filter ( часть 1) **DONE!** `10/10`
 * **unit-18:** Методы массивов: join, split, forEach ( часть 2) **DONE!** `09/10`
+* **unit-19:** События мыши в JavaScript **DONE!** `19/20`
+* **unit-20:** События клавиатуры в JavaScript **DONE!** `09/11`
